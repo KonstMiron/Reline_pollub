@@ -47,3 +47,4 @@ export const LaserSection = () => {
     </section>
   );
 };
+export default LaserSection;
