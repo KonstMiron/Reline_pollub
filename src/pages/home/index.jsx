@@ -3,6 +3,7 @@ import Header from "@/widgets/header";
 import LaserSection from "./LaserSection";
 import AboutSection from "./AboutSection";
 import ServicesSection from "./ServicesSection";
+import InstagramSection from "./InstagramSection";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <LaserSection />
       <AboutSection />
       <ServicesSection />
+      <InstagramSection />
     </>
   );
 };
