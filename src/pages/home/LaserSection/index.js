@@ -1,1 +1,1 @@
-export { LaserSection } from "./LaserSection";
+export { default } from "./LaserSection";
