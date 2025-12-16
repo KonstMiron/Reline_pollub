@@ -7,7 +7,7 @@ test("Strona główna wyświetla sekcje Hero, Laser oraz About", () => {
   const heroTexts = screen.getAllByText(/Umów się na wizytę!/i);
   expect(heroTexts.length).toBeGreaterThan(0);
 
-  const laserTitle = screen.getByText(/LASEROWE USUWANIE/i);
+  const laserTitle = screen.getByRole("heading", { name: /LASEROWE USUWANIE/i, level: 2 });
   expect(laserTitle).toBeTruthy();
 
   const aboutTitles = screen.getAllByText(/SKIN & INK/i);
